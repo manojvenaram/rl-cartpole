@@ -11,7 +11,11 @@ The action is a ndarray with shape (1,) which can take values {0, 1} indicating 
 i) 0: Push cart to the left ii) 1: Push cart to the right
 
 ## MONTE CARLO CONTROL ALGORITHM FOR CART POLE BALANCING
-Include the steps involved in the Monte Carlo control algorithm stabilization.
+This environment corresponds to the version of the cart-pole problem described by Barto, Sutton, and Anderson in “Neuronlike Adaptive Elements That Can Solve Difficult Learning Control Problem”. A pole is attached by an un-actuated joint to a cart, which moves along a frictionless track. The pendulum is placed upright on the cart and the goal is to balance the pole by applying forces in the left and right direction on the cart.
+
+The action is a ndarray with shape (1,) which can take values {0, 1} indicating the direction of the fixed force the cart is pushed with.
+
+i) 0: Push cart to the left ii) 1: Push cart to the right
 
 ## MONTE CARLO CONTROL FUNCTION
 ```python
